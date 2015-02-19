@@ -3245,8 +3245,8 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  background-color: #64B5F6;
+  border-color: #64B5F6;
 }
 .btn-danger:hover,
 .btn-danger:focus,
@@ -6242,6 +6242,33 @@ button.close {
 }
 .carousel-caption .btn {
   text-shadow: none;
+}
+.carousel-caption .panel {
+    background: #fff;
+}
+.carousel-caption .panel-danger {
+    border: 1px solid #64B5F6;
+}
+.carousel-caption .panel-info {
+    border: 1px solid #3A87B0;
+}
+.carousel-caption .panel-success {
+    border: 1px solid #468847;
+}
+.carousel-caption .panel-danger .panel-heading{
+    background: #64B5F6;
+    color: #fff;
+}
+.carousel-caption .panel-info .panel-heading{
+    background: #3A87B0;
+    color: #ffffff;
+}
+.carousel-caption .panel-success .panel-heading{
+    background: #468847;
+    color: #ffffff;
+}
+.carousel-caption h2{
+    margin-bottom: 2px;
 }
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
