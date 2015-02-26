@@ -69,6 +69,7 @@ div.feature-box div.feature-box-icon {
 /* Background images are set within the HTML using inline CSS, not here */
 
 .fill {
+	overflow: hidden;
     width: 100%;
     height: 100%;
     background-position: center;
