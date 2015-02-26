@@ -6135,7 +6135,7 @@ button.close {
 }
 .carousel-control {
   position: absolute;
-  top: 0;
+  top: 20%;
   bottom: 0;
   left: 0;
   width: 15%;
@@ -6245,6 +6245,68 @@ button.close {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+.carousel-caption .top-left {
+    position: fixed; 
+    height: 30px; 
+    top: 0; 
+    left: -37.5%; 
+    width: 100%; 
+}
+.carousel-caption .top-left a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px; 
+    padding: 10px 15px;
+    border: 1px solid #fff;
+
+    color: #fff;
+    font-family: "aleo-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.carousel-caption .top-left a:hover{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px; 
+    padding: 10px 15px;
+    border: 1px solid #fff;
+	background-color: #fff;
+
+    color: #000;
+    font-family: "aleo-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.carousel-caption .special a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px; 
+    padding: 10px 15px;
+    border: 1px solid #fff;
+
+    color: #fff;
+    font-family: "aleo-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.carousel-caption .special a:hover {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px; 
+    padding: 10px 15px;
+    border: 1px solid #fff;
+	background-color: #fff;
+
+    color: #000;
+    font-family: "aleo-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 .carousel-caption .btn {
   text-shadow: none;
