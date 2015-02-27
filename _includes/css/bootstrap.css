@@ -6280,6 +6280,20 @@ button.close {
     font-size: 14px;
     letter-spacing: 1px;
 }
+.carousel-caption .top-left a.active{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 30px; 
+    padding: 10px 15px;
+    border: 1px solid #fff;
+	background-color: #fff;
+
+    color: #000;
+    font-family: "aleo-regular", arial;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
 .carousel-caption .special a {
     text-decoration: none;
     display: inline-block;
